@@ -32,6 +32,10 @@
                 "installation_mode": "normal_installed",
                 "install_url": "https://addons.mozilla.org/firefox/downloads/latest/FirefoxColor@mozilla.com/latest.xpi"
             },
+            "ATBC@EasonWong": {
+                "installation_mode": "normal_installed",
+                "install_url": "https://addons.mozilla.org/firefox/downloads/latest/ATBC@EasonWong/latest.xpi"
+            },
             "firemonkey@eros.man": {
                 "installation_mode": "normal_installed",
                 "install_url": "https://addons.mozilla.org/firefox/downloads/latest/firemonkey@eros.man/latest.xpi"
