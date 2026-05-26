@@ -1,0 +1,139 @@
+{
+
+    // Telemetry
+    "telemetry.telemetryLevel": "off",
+    "telemetry.editStats.enabled": false,
+    "telemetry.feedback.enabled": false,
+
+    // Exclusion
+    "files.exclude": {
+      "**/.git": true,
+      "**/node_modules": true
+    },
+
+    // Update Service
+    "update.mode": "manual",
+    "update.showReleaseNotes": false,
+    "extensions.autoCheckUpdates": false,
+    "workbench.enableExperiments": false,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+
+    // Theme, Icons & Font
+    "workbench.colorTheme": "Cobalt2",
+    "workbench.iconTheme": "city-lights-icons-vsc-light",
+    "editor.fontSize": 14,
+    "editor.fontWeight": "400",
+    "editor.fontFamily": "PragmataPro Mono Liga, Menlo, Monaco, monospace",
+    "editor.fontLigatures": true,
+    "editor.fontVariations": true,
+
+    // Tabs, Lines & Whitespace
+    "editor.tabSize": 4,
+    "editor.lineHeight": 18,
+    "editor.letterSpacing": 0.2,
+    "files.trimTrailingWhitespace": true,
+    "editor.renderWhitespace": "selection",
+    "breadcrumbs.enabled": false,
+
+    // Cursor, Scroll & Mini-map
+    "editor.cursorStyle": "line",
+    "editor.cursorBlinking": "blink",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.minimap.maxColumn": 100,
+    "editor.smoothScrolling": true,
+
+    // AI Agent
+    "claudeCode.preferredLocation": "panel",
+    "chat.agent.enabled": false,
+    "chat.agent.codeBlockProgress": false,
+    "chat.agent.thinking.generateTitles": false,
+    "chat.agent.thinking.terminalTools": false,
+    "chat.agentsControl.enabled": false,
+
+    // GIT
+    "git.decorations.enabled": false,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+
+    // Misc
+    "workbench.startupEditor": "none",
+    "security.workspace.trust.untrustedFiles": "open",
+    "explorer.confirmDragAndDrop": false,
+
+    // Action [Save]
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    },
+    "editor.formatOnPaste": false, // required
+    "editor.formatOnType": false, // required
+    "editor.formatOnSave": false, // optional
+    "editor.formatOnSaveMode": "modifications", // required to format on save
+
+    // Pathing
+    "javascript.suggest.paths": false,
+    "typescript.suggest.paths": false,
+    "npm-intellisense.scanDevDependencies": true,
+
+    // Terminal
+    "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
+    "terminal.integrated.fontFamily": "PragmataPro Mono Liga, Menlo, Monaco, monospace",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell",
+            "args": [
+                "-ExecutionPolicy",
+                "Bypass"
+            ]
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "Windows PowerShell": {
+            "path": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+        }
+    },
+    "debug.console.fontFamily": "PragmataPro Mono Liga, Menlo, Monaco, monospace",
+
+    // Prettier Formatter
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.bracketSpacing": true,
+    "prettier.semi": true,
+    "prettier.trailingComma": "es5",
+    "prettier.useTabs": true,
+    "prettier.printWidth": 120,
+    "prettier.tabWidth": 4,
+    "prettier.bracketSameLine": true,
+    "prettier.singleQuote": true,
+    "prettier.quoteProps": "consistent",
+}
