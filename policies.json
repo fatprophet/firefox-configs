@@ -1,0 +1,74 @@
+{
+    "policies": {
+        "SearchEngines": {
+            "Default": "DuckDuckGo",
+            "Remove": [
+                "Google",
+                "Bing",
+                "Amazon.com",
+                "eBay"
+            ]
+        },
+        "DisableTelemetry": true,
+        "EnableTrackingProtection": {
+            "Value": true,
+            "Locked": false,
+            "Cryptomining": true,
+            "Fingerprinting": true,
+            "EmailTracking": true,
+            "SuspectedFingerprinting": true,
+            "Category": "strict"
+        },
+        "ExtensionSettings": {
+            "uBlock0@raymondhill.net": {
+                "installation_mode": "force_installed",
+                "install_url": "https://addons.mozilla.org/firefox/downloads/latest/uBlock0@raymondhill.net/latest.xpi"
+            },
+            "sponsorBlocker@ajay.app": {
+                "installation_mode": "normal_installed",
+                "install_url": "https://addons.mozilla.org/firefox/downloads/latest/sponsorBlocker@ajay.app/latest.xpi"
+            },
+            "FirefoxColor@mozilla.com": {
+                "installation_mode": "normal_installed",
+                "install_url": "https://addons.mozilla.org/firefox/downloads/latest/FirefoxColor@mozilla.com/latest.xpi"
+            },
+            "firemonkey@eros.man": {
+                "installation_mode": "normal_installed",
+                "install_url": "https://addons.mozilla.org/firefox/downloads/latest/firemonkey@eros.man/latest.xpi"
+            },
+            "78272b6fa58f4a1abaac99321d503a20@proton.me": {
+                "installation_mode": "normal_installed",
+                "install_url": "https://addons.mozilla.org/firefox/downloads/latest/78272b6fa58f4a1abaac99321d503a20@proton.me/latest.xpi"
+            },
+            "{762f9885-5a13-4abd-9c77-433dcd38b8fd}": {
+                "installation_mode": "normal_installed",
+                "install_url": "https://addons.mozilla.org/firefox/downloads/latest/{762f9885-5a13-4abd-9c77-433dcd38b8fd}/latest.xpi"
+            },
+            "{e98b4b87-bc39-439f-a175-b15fbe4a06c0}": {
+                "installation_mode": "normal_installed",
+                "install_url": "https://addons.mozilla.org/firefox/downloads/latest/{e98b4b87-bc39-439f-a175-b15fbe4a06c0}/latest.xpi"
+            },
+            "{1be309c5-3e4f-4b99-927d-bb500eb4fa88}": {
+                "installation_mode": "normal_installed",
+                "install_url": "https://addons.mozilla.org/firefox/downloads/latest/{1be309c5-3e4f-4b99-927d-bb500eb4fa88}/latest.xpi"
+            },
+            "magnolia@12.34": {
+                "installation_mode": "normal_installed",
+                "install_url": "https://gitflic.ru/project/magnolia1234/bpc_uploads/blob/raw?file=bypass_paywalls_clean-latest.xpi"
+            }
+        },
+        "FirefoxSuggest": {
+            "SponsoredSuggestions": false
+        },
+        "GenerativeAI": {
+            "Enabled": false,
+            "Chatbot": false,
+            "LinkPreviews": false,
+            "TabGroups": false
+        },
+         "HttpsOnlyMode": "enabled",
+         "OfferToSaveLogins": false,
+         "OfferToSaveLoginsDefault": false,
+         "PasswordManagerEnabled": false
+    }
+}
