@@ -136,7 +136,7 @@ user_pref("network.http.referer.XOriginTrimmingPolicy", 2);
 /** CONTAINERS ***/
 user_pref("privacy.userContext.enabled", true);
 user_pref("privacy.userContext.ui.enabled", true);
-user_pref("privacy.userContext.newTabContainerOnLeftClick.enabled", true);
+user_pref("privacy.userContext.newTabContainerOnLeftClick.enabled", false);
 user_pref("privacy.antitracking.isolateContentScriptResources", true);
 
 /** VARIOUS ***/
